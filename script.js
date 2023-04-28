@@ -29,10 +29,10 @@ cells.forEach(cell => {
             alert(`${currentPlayer} is the winner!`);
         if (currentPlayer === "X") {
             playerXScore++;
-            playerXScoreHolder.textContent = `Player 1: ${playerXScore}`;
+            playerXScoreHolder.textContent = `SCORE: ${playerXScore}`;
         } else {
             playerOScore++;
-            playerOScoreHolder.textContent = `Player 2: ${playerOScore}`;
+            playerOScoreHolder.textContent = `SCORE: ${playerOScore}`;
         }
     } else if (checkTie()) {
         gameEnd = false;
