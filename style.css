@@ -1,0 +1,99 @@
+body {
+    background-color: #000000;
+}
+
+#title {
+        text-align: center;
+        height: 50px;
+}
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 618px;
+    height: 617px;
+    border: 3px solid rgb(255, 255, 255);
+    font-family: 'Silkscreen', cursive;
+    margin: 50px auto;   
+}
+
+.cells {
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.resetButton {
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    margin-top: -40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resetGame {
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resetButton:active {
+	transform: scale(0.90);
+}
+
+.resetGame:active {
+	transform: scale(0.90);
+}
+
+
+#playerInput {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    color: #ffffff;
+}
+
+#playerInput input[type="text"] {
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#scoreboard {
+    font-family: 'Silkscreen', cursive;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.score {
+    display: inline;
+    margin: 143px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
